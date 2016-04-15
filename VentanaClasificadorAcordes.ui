@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VentanaClasificadorAcordes</class>
+ <widget class="QMainWindow" name="VentanaClasificadorAcordes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>477</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Clasificador de Acordes</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QWidget" name="notas" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QComboBox" name="nota1Combo">
+         <property name="toolTip">
+          <string>Nota 1</string>
+         </property>
+         <property name="currentIndex">
+          <number>9</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Do</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Do#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Re</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Re#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mi</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fa</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fa#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sol#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>La</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>La#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Si</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="nota2Combo">
+         <property name="toolTip">
+          <string>Nota 2</string>
+         </property>
+         <property name="currentIndex">
+          <number>9</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Do</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Do#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Re</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Re#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mi</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fa</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fa#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sol#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>La</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>La#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Si</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="nota3Combo">
+         <property name="toolTip">
+          <string>Nota 3</string>
+         </property>
+         <property name="currentIndex">
+          <number>9</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Do</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Do#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Re</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Re#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mi</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fa</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fa#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sol#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>La</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>La#</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Si</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="frecuencias" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QDoubleSpinBox" name="nota1Spin">
+         <property name="toolTip">
+          <string>Nota 1</string>
+         </property>
+         <property name="suffix">
+          <string> hz</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>16.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>8000.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>440.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="nota2Spin">
+         <property name="toolTip">
+          <string>Nota 2</string>
+         </property>
+         <property name="suffix">
+          <string> hz</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>16.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>8000.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>440.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="nota3Spin">
+         <property name="toolTip">
+          <string>Nota 3</string>
+         </property>
+         <property name="suffix">
+          <string> hz</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>16.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>8000.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>440.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Expanding</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>60</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="acordeEdit">
+      <property name="toolTip">
+       <string>Acorde</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>60</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QTreeWidget" name="arbolMembresias">
+      <attribute name="headerVisible">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Níveles de membresía</string>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>Níveles de membresía</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>477</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
